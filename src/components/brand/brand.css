@@ -1,0 +1,7 @@
+/* Companies Logos */
+.companies-logo {
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+  }
+  

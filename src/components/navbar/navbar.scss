@@ -1,0 +1,163 @@
+.scriptai__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 6rem;
+  color: white;
+
+  .scriptai__navbar-links {
+    display: flex;
+    align-items: center;
+    .script__ai-links_logo {
+      img {
+        width: 68px;
+        height: 16px;
+      }
+    }
+    .scriptai__links {
+      white-space: nowrap;
+      a {
+        margin: 0rem 1.5rem;
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+      }
+      a:hover {
+        transition: 0.5s ease;
+        border-bottom: 1px solid #fff;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .scriptai__navbar-buttons {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    white-space: nowrap;
+    .scriptai__navbar-buttons-signin button,
+    .scriptai__navbar-buttons-signup button {
+      font-family: Manrope;
+      font-weight: 500;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+      color: #fff;
+      cursor: pointer;
+    }
+    .scriptai__navbar-buttons-signin {
+      button {
+        background: transparent;
+        border: none;
+      }
+      button:hover {
+        transition: 0.25s;
+        font-size: 1.2rem;
+      }
+    }
+    .scriptai__navbar-buttons-signup {
+      height: 55px;
+      width: 150px;
+      button {
+        padding: 0.5rem 2rem;
+        background: #ff4820;
+        border-radius: 5px;
+      }
+      button:active {
+        animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      }
+    }
+  }
+  .scriptai-menu {
+    display: none;
+    .scriptai__hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      gap: 5px;
+      background-color: var(--color-footer);
+      height: 200px;
+      width: 175px;
+      position: absolute;
+      top: 2.5rem;
+      right: 3rem;
+      border-radius: 8px;
+      nav {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      a {
+        font-family: Manrope;
+        padding: 0.25rem 0rem;
+        font-weight: 500;
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+        color: #fff;
+        cursor: pointer;
+      }
+      nav a:hover {
+        border-bottom: 1px solid #fff;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .scriptai__navbar {
+    padding: 1rem 3rem;
+    .scriptai__links {
+      display: none;
+    }
+
+    .scriptai-menu {
+      display: block;
+    }
+    .scriptai__navbar-buttons {
+      display: none;
+      .scriptai__navbar-buttons-signup {
+        button {
+          padding: 0.5rem 1rem;
+        }
+      }
+    }
+    .scriptai__navbar-buttons-signin button,
+    .scriptai__navbar-buttons-signup button {
+      font-family: Manrope;
+      font-weight: 500;
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
+      color: #fff;
+      cursor: pointer;
+    }
+    .scriptai__navbar-buttons-signin {
+      button {
+        color:#fff;
+        background: transparent;
+        border: none;
+        margin-left: 2rem;
+      }
+      button:hover {
+        transition: 0.25s;
+        font-size: 1.2rem;
+      }
+    }
+    .scriptai__navbar-buttons-signup {
+      height: 55px;
+      width: 150px;
+      margin-left: 2rem;
+      button {
+        color:#fff;
+        padding: 0.5rem 2rem;
+        background: #ff4820;
+        border-radius: 5px;
+      }
+      button:active {
+        animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,70 @@
+.header-main {
+  display: flex;
+  font-family: "Manrope";
+  font-style: normal;
+  margin: 4rem 8rem;
+}
+.header-main-text-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.heading h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.paragraph p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #81afdd;
+}
+.search-box {
+  display: flex;
+}
+.search-box input {
+  font-family: Manrope;
+  cursor: pointer;
+  color: #3d6184;
+  background: #052d56;
+  width: 60%;
+  height: 3.5rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+.search-box button {
+  font-family: Manrope;
+  cursor: pointer;
+  background: #ff4820;
+  color: #fff;
+  font-size: 1rem;
+  width: 30%;
+  height: 3.5rem;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+}
+.header-main-image img {
+  width: 600px;
+  height: 600px;
+}
+.testimonials {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.testimonials span {
+  font-family: Manrope;
+  color: #fff;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+
+
+/* Media Queries  */
