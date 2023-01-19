@@ -1,0 +1,11 @@
+.feature-container {
+  /* margin: 0rem 8rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.feature-image img {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+}

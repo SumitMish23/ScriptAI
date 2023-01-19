@@ -1,0 +1,60 @@
+.script-ai-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 695px;
+  width: 1170px;
+  background-color: #052d56;
+  margin-right: 4rem;
+  margin: 4rem auto;
+  padding: 4rem;
+  color: #fff;
+}
+h1{
+  color: white;
+}
+.script-ai-info {
+  display: flex;
+  justify-content: space-between;
+}
+.script-ai-info p {
+ 
+  font-size: 1.5rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  flex-basis: 90%;
+  
+  /* text-align: justify; */
+}
+.script-ai-info span {
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 16px;
+  color: #81afdd;
+}
+.script-ai-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.script-ai-text p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.2rem;
+  max-width: 52%;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+.script-ai-text span {
+    font-family: "Manrope";
+  color: #ff8a71;
+  font-size: 1rem;
+}
