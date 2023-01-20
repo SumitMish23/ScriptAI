@@ -1,11 +1,60 @@
 .feature-container {
-  /* margin: 0rem 8rem; */
+  margin: auto;
+  width: 100vw;
   display: flex;
   justify-content: center;
+  column-gap: 2rem;
 }
 
 .feature-image img {
   width: 500px;
   height: 500px;
   max-width: 100%;
+}
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2rem;
+  color: #fff;
+  width: 40%;
+}
+.feature-text-start,
+.feature-text-main,
+.feature-text-aside,
+.feature-text-bottom {
+  font-family: "Manrope";
+  font-style: normal;
+}
+.feature-text-start {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 30px;
+
+  color: #71e5ff;
+}
+.feature-text-main {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%), #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature-text-aside {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  /* or 188% */
+
+  color: #81afdd;
+}
+.feature-text-bottom {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #ff8a71;
 }
