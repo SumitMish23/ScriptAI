@@ -1,10 +1,19 @@
 import React from 'react';
 import './blog.css';
-import {card} from ''
+import {card} from '../../Text'
 
 const Blog = () => {
+  
   return (
-    <div>Blog</div>
+    <div className="card-container">
+      
+      {card.map((value,index)=>{
+        return <div className={`card card-${index}`}>{value.a} </div>
+
+      })}
+     
+    
+    </div>
   )
 }
 
