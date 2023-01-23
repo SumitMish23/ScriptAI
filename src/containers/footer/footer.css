@@ -1,0 +1,40 @@
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.footer-text button {
+    font-family: "Manrope";
+    font-size: 1rem;
+    color: #FFFFFF;
+    width: 218px;
+    height: 65px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+.footer-text h1 {
+    width: 821px;
+    height: 150px;
+    margin: auto;
+    margin-top: 5rem;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    /* or 121% */
+
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
