@@ -4,9 +4,13 @@ import AI from "../../assets/ai.png";
 import People from "../../assets/people.png";
 
 const Header = () => {
+ function handleMouseChange(e){
+ e.target.style.backgroundColor="white"
+ }
+
   return (
     <>
-      <div className="header-main">
+      <div className="header-main" onMouseMove={(e)=>handleMouseChange(e)}>
         <div className="header-main-text-content">
           <div className="heading">
             <h1>Let’s Build Something amazing with GPT-3 OpenAI</h1>
